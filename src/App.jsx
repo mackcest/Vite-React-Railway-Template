@@ -3,42 +3,93 @@ import logo from './logo.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
+    <>
+      <style>
+        {
+          `
+        .container{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+        }
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400);
+        .snip1457 {
+          font-family: 'Raleway', Arial, sans-serif;
+          border: none;
+          background-color: #5666a5;
+          border-radius: 5px;
+          color: #ffffff;
+          cursor: pointer;
+          padding: 0px 30px;
+          display: inline-block;
+          margin: 15px 30px;
+          text-transform: uppercase;
+          line-height: 46px;
+          font-weight: 400;
+          font-size: 1em;
+          outline: none;
+          position: relative;
+          overflow: hidden;
+          font-size: 16px;
+          border-radius: 23px;
+          letter-spacing: 2px;
+          -webkit-transform: translateZ(0);
+          -webkit-transition: all 0.35s ease;
+          transition: all 0.35s ease;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        .snip1457:before {
+          opacity: 0;
+          content: "";
+          position: absolute;
+          top: 0px;
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          border-radius: inherit;
+          background-color: #ffffff;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+        }
+        .snip1457:after {
+          position: absolute;
+          top: 0px;
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          border: 5px solid #5666a5;
+          content: '';
+          border-radius: inherit;
+        }
+        .snip1457:hover,
+        .snip1457.hover {
+          background-color: #5666a5;
+          color: #ffffff;
+        }
+        .snip1457:hover:before,
+        .snip1457.hover:before {
+          -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+          opacity: 0.25;
+        }
+        `
+        }
+      </style>
+      <div className="App">
+        <div className='container'>
+          <a className='login snip1457' href="https://sgstockexchange.com/login">
+            <button>Đăng nhập</button>
           </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
+          <a className='resgister snip1457' href="https://sgstockexchange.com/register?ref=DL10">
+            <button>Đăng ký</button>
           </a>
-        </p>
-      </header>
-    </div>
+        </div>
+      </div>
+    </>
   )
 }
 
