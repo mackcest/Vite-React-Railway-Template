@@ -12,6 +12,10 @@ function App() {
           display: flex;
           justify-content: center;
           flex-direction: column;
+          max-width: 800px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin: auto;
         }
         @import url(https://fonts.googleapis.com/css?family=Raleway:400);
         .snip1457 {
@@ -81,11 +85,11 @@ function App() {
       </style>
       <div className="App">
         <div className='container'>
-          <a className='login snip1457' href="https://sgstockexchange.com/login">
-            <button>Đăng nhập</button>
+          <a className='login ' href="https://sgstockexchange.com/login">
+            <button className='snip1457'>Đăng nhập</button>
           </a>
-          <a className='resgister snip1457' href="https://sgstockexchange.com/register?ref=DL10">
-            <button>Đăng ký</button>
+          <a className='resgister ' href="https://sgstockexchange.com/register?ref=DL10">
+            <button className='snip1457'>Đăng ký</button>
           </a>
         </div>
       </div>
