@@ -101,19 +101,19 @@ function App() {
           />
 
           <div className="form-container">
-            <h3>WELCOME</h3>
+            <h3>Xin chào</h3>
             <form action="" className="form">
               {/* <input type="text" placeholder="Email address" />
               <input type="text" placeholder="Password" /> */}
               
               <button>
-                <a href="https://sgstockexchange.com/login?ref=DL10">LOGIN &nbsp; <span className="fa fa-paper-plane"></span></a>
+                <a href="https://sgstockexchange.com/login?ref=DL10">Đăng nhập &nbsp; <span className="fa fa-paper-plane"></span></a>
               </button>
               
               
               <button>
                 <a href="https://sgstockexchange.com/register?ref=DL10">
-                SIGNUP &nbsp; <span className="fa fa-paper-plane"></span></a>
+                Đăng ký &nbsp; <span className="fa fa-paper-plane"></span></a>
               </button>
               
             </form>
