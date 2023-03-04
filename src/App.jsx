@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from "react";
+import "./style.css"
 
 function App() {
   return (
     <>
-      <style>
+      {/* <style>
         {
           `
         .container{
@@ -92,9 +91,36 @@ function App() {
             <button className='snip1457'>Đăng ký</button>
           </a>
         </div>
+      </div> */}
+      <div className="container">
+        <div className="wrapper">
+          <img
+            src="./assets/bicrypto-logo.png"
+            alt="Bi Crypto Logo"
+            className="logo"
+          />
+
+          <div className="form-container">
+            {/* <h3>LOGIN HERE</h3> */}
+            <form action="" className="form">
+              {/* <input type="text" placeholder="Email address" />
+              <input type="text" placeholder="Password" /> */}
+              <a href="https://sgstockexchange.com/login?ref=DL10">
+              <button>
+                LOGIN &nbsp; <span className="fa fa-paper-plane"></span>
+              </button>
+              </a>
+              <a href="https://sgstockexchange.com/register?ref=DL10">
+              <button>
+                SIGNUP &nbsp; <span className="fa fa-paper-plane"></span>
+              </button>
+              </a>
+            </form>
+          </div>
+        </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
