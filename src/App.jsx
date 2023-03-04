@@ -101,7 +101,7 @@ function App() {
           />
 
           <div className="form-container">
-            {/* <h3>LOGIN HERE</h3> */}
+            <h3>WELCOME</h3>
             <form action="" className="form">
               {/* <input type="text" placeholder="Email address" />
               <input type="text" placeholder="Password" /> */}
