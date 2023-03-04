@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./style.css"
-
+import logo from "./assets/bicrypto-logo.png"
 function App() {
   return (
     <>
@@ -95,7 +95,7 @@ function App() {
       <div className="container">
         <div className="wrapper">
           <img
-            src="./assets/bicrypto-logo.png"
+            src="logo"
             alt="Bi Crypto Logo"
             className="logo"
           />
@@ -105,16 +105,17 @@ function App() {
             <form action="" className="form">
               {/* <input type="text" placeholder="Email address" />
               <input type="text" placeholder="Password" /> */}
-              <a href="https://sgstockexchange.com/login?ref=DL10">
+              
               <button>
-                LOGIN &nbsp; <span className="fa fa-paper-plane"></span>
+                <a href="https://sgstockexchange.com/login?ref=DL10">LOGIN &nbsp; <span className="fa fa-paper-plane"></span></a>
               </button>
-              </a>
-              <a href="https://sgstockexchange.com/register?ref=DL10">
+              
+              
               <button>
-                SIGNUP &nbsp; <span className="fa fa-paper-plane"></span>
+                <a href="https://sgstockexchange.com/register?ref=DL10">
+                SIGNUP &nbsp; <span className="fa fa-paper-plane"></span></a>
               </button>
-              </a>
+              
             </form>
           </div>
         </div>
