@@ -95,7 +95,7 @@ function App() {
       <div className="container">
         <div className="wrapper">
           <img
-            src="logo"
+            src={logo}
             alt="Bi Crypto Logo"
             className="logo"
           />
